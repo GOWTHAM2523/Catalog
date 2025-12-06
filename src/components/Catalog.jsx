@@ -36,22 +36,23 @@ export default function Catalog() {
     15: 'Soambu',
     16: 'Kasakasa',
     17: 'Sukku',
-    18: 'Sundakka Vathal',
-    19: 'Sundakka Vathal',
-    20: 'Moor Milagai',
-    21: 'Moor Milagai',
+    18: 'Sundakka_Vathal',
+    19: 'Sundakka_Vathal',
+    20: 'Moor_Milagai',
+    21: 'Moor_Milagai',
     22: 'Sukkuttikkai',
     23: 'Kalpaasi',
-    24: 'Anisi Poo',
-    25: 'Biryani Ilai',
-    26: 'Soda Uppu',
+    24: 'Anisi_Poo',
+    25: 'Biryani_Ilai',
+    26: 'Soda_Uppu',
     27: 'Cherry',
-    28: 'Javarisi Vathal',
-    29: 'Color Koddal',
-    30: 'Bat Fryums',
+    28: 'Javarisi_Vathal',
+    29: 'Color_Koddal',
+    30: 'Bat_Fryums',
     31: 'Elakkay',
     32: 'Mixed',
     33: 'Mixed',
+    34: 'Heart_Fryums',
   }
 
   useEffect(() => {
@@ -91,7 +92,7 @@ export default function Catalog() {
   // Helper to get normalized product name for folder
   const normalizeName = (name) => {
     if (!name) return ''
-    // replace spaces with underscore and remove characters not in A-Z a-z 0-9 _ -
+    // Replace spaces with underscore and remove characters not in A-Z a-z 0-9 _ -
     return name
       .toString()
       .trim()

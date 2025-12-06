@@ -295,5 +295,14 @@
     "price_per_product": 4,
     "slot_count": 25,
     "slot_total_price": 100
+  },
+  {
+    "id": 34,
+    "product_name": "Heart Fryums",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
   }
 ]
