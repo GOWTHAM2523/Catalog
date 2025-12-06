@@ -48,8 +48,8 @@ export default function Catalog() {
     29: 'Color Koddal',
     30: 'Bat Fryums',
     31: 'Elakkay',
-    32: 'Soambu,Kasakasa,Kirambu,Pattai,Biryani Ilai,Roja Poo,Marati Mokku',
-    33: 'Soambu,Kasakasa,Kirambu,Pattai,Biryani Ilai,Roja Poo,Marati Mokku,Elakkay',
+    32: 'Mixed',
+    33: 'Mixed',
   }
 
   useEffect(() => {
@@ -222,6 +222,21 @@ export default function Catalog() {
 
   const cartTotal = cart.reduce((sum, item) => sum + item.quantity, 0)
 
+  const handlePlaceOrder = () => {
+    if (cart.length === 0) return
+
+    // Format cart items for WhatsApp message
+    const cartMessage = cart
+      .map((item) => `${item.product_name} - Qty: ${item.quantity} - ₹${item.price_per_product * item.quantity}`)
+      .join('%0A')
+
+    const totalPrice = cart.reduce((sum, item) => sum + (item.price_per_product * item.quantity), 0)
+    const message = `Order%20Request:%0A${cartMessage}%0A%0ATotal:%20₹${totalPrice}`
+
+    const whatsappLink = `https://wa.me/919514083145?text=${message}`
+    window.open(whatsappLink, '_blank')
+  }
+
   return (
     <div className="catalog-container">
       <div className="header">
@@ -369,8 +384,8 @@ export default function Catalog() {
                 <strong>Total: </strong>
                 <strong>₹{cart.reduce((sum, item) => sum + (item.price_per_product * item.quantity), 0)}</strong>
               </div>
-              <button className="checkout-btn">
-                Proceed to Checkout
+              <button className="checkout-btn" onClick={handlePlaceOrder}>
+                Place The Order
               </button>
             </div>
           )}
