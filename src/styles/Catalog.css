@@ -583,6 +583,7 @@
   flex-direction: column;
   animation: slideInRight 0.3s ease-out;
   overflow: hidden;
+  padding-bottom: 0;
 }
 
 .cart-header {
@@ -693,6 +694,7 @@
   background: white;
   scroll-behavior: smooth;
   min-height: 0;
+  padding-bottom: 180px;
 }
 
 .cart-items::-webkit-scrollbar {
@@ -845,11 +847,16 @@
 }
 
 .cart-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   padding: 20px;
   border-top: 2px solid #f0f4f8;
   background: linear-gradient(135deg, #f7f9fc 0%, #ffffff 100%);
   box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.05);
   flex-shrink: 0;
+  width: 100%;
 }
 
 .cart-total {
@@ -1099,10 +1106,12 @@
   .cart-sidebar {
     width: 100%;
     height: 100vh;
+    padding-bottom: 0;
   }
 
   .cart-items {
     max-height: calc(100vh - 280px);
+    padding-bottom: 200px;
   }
 
   .cart-item-info h4 {
