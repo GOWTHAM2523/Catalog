@@ -3,7 +3,6 @@ import englishData from '../json/english.json'
 import tamilData from '../json/tamil.json'
 import tanglishData from '../json/tanglish.json'
 import ImageModal from './ImageModal'
-import Footer from './Footer'
 import '../styles/Catalog.css'
 import '../styles/Footer.css'
 
@@ -520,7 +519,7 @@ export default function Catalog() {
         />
       )}
 
-      <Footer />
+      
     </div>
   )
 }
