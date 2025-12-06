@@ -586,7 +586,7 @@
 }
 
 .cart-header {
-  padding: 25px 20px;
+  padding: 15px 20px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   display: flex;
   justify-content: space-between;
@@ -920,10 +920,6 @@
     max-height: 3.9rem;
   }
 
-  .action-buttons {
-    flex-direction: column;
-  }
-
   .download-btn {
     width: 100%;
   }
@@ -1015,7 +1011,7 @@
   }
 
   .product-image-group {
-    height: 200px;
+    height: auto;
   }
 
   .product-info {
