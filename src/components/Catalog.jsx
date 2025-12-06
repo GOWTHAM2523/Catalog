@@ -239,6 +239,23 @@ export default function Catalog() {
     window.open(whatsappLink, '_blank')
   }
 
+  const handleShareProduct = (product) => {
+    // Create a shareable product URL with details
+    const productDetails = encodeURIComponent(
+      `🎁 *${product.product_name}*\n\n` +
+      `📦 Type: ${product.product_type}\n` +
+      `💰 Price: ₹${product.price_per_product}\n` +
+      `📊 Variant: ${product.variant}\n` +
+      `🎯 Slots: ${product.slot_count}\n` +
+      `💵 Slot Price: ₹${product.slot_total_price}\n\n` +
+      `✨ Check out this amazing product from *R.G THATHA*!\n\n` +
+      `🛍️ Visit our catalog to order: https://rg-thatha.netlify.app/`
+    )
+    
+    const whatsappLink = `https://wa.me/?text=${productDetails}`
+    window.open(whatsappLink, '_blank')
+  }
+
   return (
     <div className="catalog-container">
       <div className="header">
@@ -311,26 +328,6 @@ export default function Catalog() {
             >
               ✕
             </button>
-          </div>
-
-          {/* Quick Action Icons */}
-          <div className="cart-quick-actions">
-            <a
-              href="tel:+919514083145"
-              className="quick-action-btn call-quick"
-              title="Call us"
-            >
-              ☎️
-            </a>
-            <a
-              href="https://wa.me/919514083145"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="quick-action-btn whatsapp-quick"
-              title="Chat on WhatsApp"
-            >
-              💬
-            </a>
           </div>
 
           {cart.length === 0 ? (
@@ -450,8 +447,19 @@ export default function Catalog() {
                 )}
               </div>
               <div className="product-info">
-                <h3>{getProductName(product)}</h3>
-                <p className="product-type">{getProductType(product)}</p>
+                <div className="product-info-header">
+                  <div>
+                    <h3>{getProductName(product)}</h3>
+                    <p className="product-type">{getProductType(product)}</p>
+                  </div>
+                  <button
+                    className="share-btn"
+                    onClick={() => handleShareProduct(product)}
+                    title="Share product"
+                  >
+                    📤
+                  </button>
+                </div>
 
                 <div className="product-details">
                   <div className="detail-item">
@@ -518,8 +526,6 @@ export default function Catalog() {
           onClose={closeImageModal}
         />
       )}
-
-      
     </div>
   )
 }
