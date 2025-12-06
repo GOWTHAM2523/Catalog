@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "product_name": "பாதாம்",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 2,
+    "product_name": "முந்திரி",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 3,
+    "product_name": "பிஸ்தா",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 4,
+    "product_name": "திராட்சை",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 5,
+    "product_name": "திராட்சை",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 6,
+    "product_name": "கிராம்பு",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 7,
+    "product_name": "கிராம்பு",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 8,
+    "product_name": "பட்டை",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 9,
+    "product_name": "பட்டை",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 10,
+    "product_name": "மிளகு",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 11,
+    "product_name": "மிளகு",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 12,
+    "product_name": "சீரகம்",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 13,
+    "product_name": "சீரகம்",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 14,
+    "product_name": "சோம்பு",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 15,
+    "product_name": "சோம்பு",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 16,
+    "product_name": "கசகசா",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 17,
+    "product_name": "சுக்கு",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 18,
+    "product_name": "சுண்டக்கா வத்தல்",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 19,
+    "product_name": "சுண்டக்கா வத்தல்",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 20,
+    "product_name": "மோர் மிளகாய்",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 21,
+    "product_name": "மோர் மிளகாய்",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 22,
+    "product_name": "சுக்குட்டிக்காய்",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 23,
+    "product_name": "கற்பாசி",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 24,
+    "product_name": "அனிசிப்பூ",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 25,
+    "product_name": "பிரியாணி இலை",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 26,
+    "product_name": "சோடா உப்பு",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 27,
+    "product_name": "செர்ரி பழம்",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 28,
+    "product_name": "ஜவரிசி வத்தல்",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 29,
+    "product_name": "கலர் கொடல்",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 30,
+    "product_name": "பேட் கொடல்",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 31,
+    "product_name": "ஏலக்காய்",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 32,
+    "product_name": "சோம்பு, கசகசா, கிராம்பு, பட்டை, பிரியாணி இலை, ரோஜா பூ, மராத்தி மொக்கு",
+    "product_type": "Mixed",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 10,
+    "slot_total_price": 80
+  },
+  {
+    "id": 33,
+    "product_name": "சோம்பு, கசகசா, கிராம்பு, பட்டை, பிரியாணி இலை, ரோஜா பூ, மராத்தி மொக்கு, ஏலக்காய்",
+    "product_type": "Mixed",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 25,
+    "slot_total_price": 100
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "product_name": "Almond",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 2,
+    "product_name": "Cashew",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 3,
+    "product_name": "Pistachio",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 4,
+    "product_name": "Dry grapes",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 5,
+    "product_name": "Dry grapes",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 6,
+    "product_name": "Clove",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 7,
+    "product_name": "Clove",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 8,
+    "product_name": "Cinnamon",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 9,
+    "product_name": "Cinnamon",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 10,
+    "product_name": "Black Pepper",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 11,
+    "product_name": "Black Pepper",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 12,
+    "product_name": "Cumin seeds",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 13,
+    "product_name": "Cumin seeds",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 14,
+    "product_name": "Fennel seeds",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 15,
+    "product_name": "Fennel seeds",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 16,
+    "product_name": "Poppy Seeds",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 17,
+    "product_name": "Dry Ginger",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 18,
+    "product_name": "Dried Turkey Berry",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 19,
+    "product_name": "Dried Turkey Berry",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 20,
+    "product_name": "Buttermilk Chili",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 21,
+    "product_name": "Buttermilk Chili",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 22,
+    "product_name": "Soapnut",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 23,
+    "product_name": "Black Stone Flower",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 24,
+    "product_name": "Star Anise",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 25,
+    "product_name": "Bay Leaf",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 26,
+    "product_name": "Baking Soda",
+    "product_type": "Single",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 20,
+    "slot_total_price": 80
+  },
+  {
+    "id": 27,
+    "product_name": "Cherry",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 28,
+    "product_name": "Sago Fryums",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 29,
+    "product_name": "Color Fryums",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 30,
+    "product_name": "Bat-shaped Fryums",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 31,
+    "product_name": "Cardamom",
+    "product_type": "Single",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 20,
+    "slot_total_price": 160
+  },
+  {
+    "id": 32,
+    "product_name": "Cinnamon,Cloves,Poppy Seeds,Bay Leaf,Rose Flower,Marati Moggu,Fennel Seeds",
+    "product_type": "Mixed",
+    "variant": 10,
+    "price_per_product": 8,
+    "slot_count": 10,
+    "slot_total_price": 80
+  },
+  {
+    "id": 33,
+    "product_name": "Cinnamon,Cloves,Poppy Seeds,Bay Leaf,Rose Flower,Marati Moggu,Fennel Seeds,Cardamom",
+    "product_type": "Mixed",
+    "variant": 5,
+    "price_per_product": 4,
+    "slot_count": 25,
+    "slot_total_price": 100
+  }
+]
