@@ -227,12 +227,12 @@ export default function Catalog() {
   const handlePlaceOrder = () => {
     if (cart.length === 0) return
 
-    // Format cart items for WhatsApp message
+    // Format cart items for WhatsApp message - using slot prices
     const cartMessage = cart
-      .map((item) => `${item.product_name} - Qty: ${item.quantity} - ₹${item.price_per_product * item.quantity}`)
+      .map((item) => `${item.product_name} - Qty: ${item.quantity} - ₹${item.slot_total_price * item.quantity}`)
       .join('%0A')
 
-    const totalPrice = cart.reduce((sum, item) => sum + (item.price_per_product * item.quantity), 0)
+    const totalPrice = cart.reduce((sum, item) => sum + (item.slot_total_price * item.quantity), 0)
     const message = `Order%20Request:%0A${cartMessage}%0A%0ATotal:%20₹${totalPrice}`
 
     const whatsappLink = `https://wa.me/919514083145?text=${message}`
@@ -340,7 +340,7 @@ export default function Catalog() {
                 <div key={item.id} className="cart-item">
                   <div className="cart-item-info">
                     <h4>{item.product_name}</h4>
-                    <p>₹{item.price_per_product}</p>
+                    <p>₹{item.slot_total_price}</p>
                   </div>
                   <div className="cart-item-controls">
                     <button
@@ -370,7 +370,7 @@ export default function Catalog() {
                     </button>
                   </div>
                   <div className="cart-item-total">
-                    ₹{item.price_per_product * item.quantity}
+                    ₹{item.slot_total_price * item.quantity}
                   </div>
                 </div>
               ))}
@@ -381,7 +381,7 @@ export default function Catalog() {
             <div className="cart-footer">
               <div className="cart-total">
                 <strong>Total: </strong>
-                <strong>₹{cart.reduce((sum, item) => sum + (item.price_per_product * item.quantity), 0)}</strong>
+                <strong>₹{cart.reduce((sum, item) => sum + (item.slot_total_price * item.quantity), 0)}</strong>
               </div>
               <button className="checkout-btn" onClick={handlePlaceOrder}>
                 Place The Order
